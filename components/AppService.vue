@@ -4,7 +4,10 @@
     <ul class="flex gap-8 justify-center translate-y-1/2">
       <ServiceCard>
         <template #icon>
-          <h1>TEST</h1>
+          <Icon
+            class="w-16 h-16 text-bs-wblue"
+            name="healthicons:group-discussion-meeting-negative"
+          ></Icon>
         </template>
         <template #header> 1-無料相談 </template>
         <template #default>
@@ -13,7 +16,10 @@
       </ServiceCard>
       <ServiceCard>
         <template #icon>
-          <h1>TEST</h1>
+          <Icon
+            class="w-16 h-16 text-bs-wblue"
+            name="streamline:hand-held-tablet-writing-solid"
+          ></Icon>
         </template>
         <template #header> 2-個別プランの作成 </template>
         <template #default>
@@ -22,7 +28,10 @@
       </ServiceCard>
       <ServiceCard>
         <template #icon>
-          <h1>TEST</h1>
+          <Icon
+            class="w-16 h-16 text-bs-wblue"
+            name="healthicons:hot-meal-negative"
+          ></Icon>
         </template>
         <template #header> 3-プランの実行 </template>
         <template #default>
@@ -31,11 +40,14 @@
       </ServiceCard>
       <ServiceCard>
         <template #icon>
-          <h1>TEST</h1>
+          <Icon
+            class="w-16 h-16 text-bs-wblue"
+            name="fluent:calendar-checkmark-28-filled"
+          ></Icon>
         </template>
         <template #header> 4-定期的なフォローアップ </template>
         <template #default>
-          定期的なフォローアップを行い、進捗状況を確認しながら、必要に応じてプランの調整を行います。これにより、持続可能な成果を保証します。 
+          定期的なフォローアップを行い、進捗状況を確認しながら、必要に応じてプランの調整を行います。これにより、持続可能な成果を保証します。
         </template>
       </ServiceCard>
     </ul>
