@@ -4,6 +4,8 @@
   <AppAbout></AppAbout>
   <AppService></AppService>
   <AppSuccess></AppSuccess>
+  <AppPlan></AppPlan>
+  <AppFaq></AppFaq>
 </template>
 
 <script setup>
@@ -16,7 +18,7 @@ useHead({
     },
   ],
   bodyAttrs: {
-    class: 'bg-bs-nurture p-4 font-custom',
+    class: 'bg-bs-nurture p-4 font-custom subpixel-antialiased scroll-smooth',
   },
 });
 </script>

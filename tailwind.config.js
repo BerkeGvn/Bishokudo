@@ -14,6 +14,7 @@ export default {
       backgroundImage:
       {
         'wave-bl': "url('~/public/svg/wave-blue.svg')",
+        'wave-wht': "url('~/public/svg/wave-white.svg')",
       },
       fontFamily: {
         custom: ['source-han-sans-vf', 'sans-serif'], // Replace 'Your Adobe Font Family' with the actual font name from Adobe Fonts

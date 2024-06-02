@@ -1,7 +1,7 @@
 <template>
-  <section class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl">
-    <h4 class="text-center translate-y-8 text-bs-white text-5xl font-bold">サービスの流れ</h4>
-    <ul class="flex gap-8 justify-center translate-y-1/2">
+  <section class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl flex flex-col justify-evenly">
+    <h4 class="text-bs-white text-5xl font-bold text-center -mt-12">サービスの流れ</h4>
+    <ul class="flex gap-8 justify-center -mt-8">
       <ServiceCard>
         <template #icon>
           <Icon
