@@ -6,6 +6,8 @@
   <AppSuccess></AppSuccess>
   <AppPlan></AppPlan>
   <AppFaq></AppFaq>
+  <AppContact></AppContact>
+  <AppFooter></AppFooter>
 </template>
 
 <script setup>

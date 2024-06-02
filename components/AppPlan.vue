@@ -1,5 +1,5 @@
 <template>
-  <section class="my-16">
+  <section class="my-16 mt-32">
     <div class="text-center">
       <h4 class="text-bs-orange text-5xl font-bold">プランと料金</h4>
       <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
