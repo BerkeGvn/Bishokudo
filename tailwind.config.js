@@ -11,6 +11,13 @@ export default {
         "bs-citron": "#D5C757",
         "bs-orange": "#CE4A2D",
       },
+      backgroundImage:
+      {
+        'wave-bl': "url('~/public/svg/wave-blue.svg')",
+      },
+      fontFamily: {
+        custom: ['source-han-sans-vf', 'sans-serif'], // Replace 'Your Adobe Font Family' with the actual font name from Adobe Fonts
+      }
     },
   },
   plugins: [],

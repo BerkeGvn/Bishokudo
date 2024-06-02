@@ -1,5 +1,5 @@
 <template>
-  <section class="my-12">
+  <section class="my-10">
     <h4 class="text-bs-orange text-5xl font-bold text-center">私たちについて</h4>
     <div class="flex items-center justify-center gap-16">
       <div class="pl-12 w-11/12 fle">
@@ -14,7 +14,7 @@
       </div>
       <div class="max-w-lg mr-8 overflow-hidden rounded-3xl shadow-[20px_20px_0_0_#084D58]">
         <img
-          src="../assets/images/about.webp"
+          src="../public/images/about.webp"
           alt=""
         />
       </div>

@@ -1,6 +1,9 @@
 <template>
+  <AppNavbar></AppNavbar>
   <AppHeader></AppHeader>
   <AppAbout></AppAbout>
+  <AppService></AppService>
+  <AppSuccess></AppSuccess>
 </template>
 
 <script setup>
@@ -13,7 +16,7 @@ useHead({
     },
   ],
   bodyAttrs: {
-    class: 'bg-bs-nurture p-4',
+    class: 'bg-bs-nurture p-4 font-custom',
   },
 });
 </script>

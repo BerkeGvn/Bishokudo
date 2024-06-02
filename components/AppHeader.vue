@@ -1,5 +1,5 @@
 <template>
-  <header class="h-screen flex items-center">
+  <header class="h-screen flex items-center mt-12">
     <div class="flex flex-col gap-14 justify-center pl-12 w-3/5 -mt-20">
       <h1 class="text-9xl font-bold text-bs-orange">美食道</h1>
       <h2 class="text-5xl font-medium text-bs-wblue">健康的な食生活への第一歩</h2>
@@ -16,7 +16,7 @@
     </div>
     <div>
       <img
-        src="../assets/svg/Hero Illustration.svg"
+        src="../public/svg/Hero Illustration.svg"
         alt=""
       />
     </div>
