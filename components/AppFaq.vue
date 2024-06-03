@@ -11,7 +11,7 @@
     </h4>
     <div class="flex h-full items-center max-tb-big:flex-col">
       <div
-        class="flex-2 max-tb-big:w-3/6"
+        class="flex-2 max-tb-big:w-3/6 max-sm:w-5/6"
         data-aos="fade-up"
         data-aos-duration="600"
         data-aos-delay="100"
