@@ -17,6 +17,7 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
+    "nuxt-aos": "^1.2.4",
     "nuxt-icon": "^0.6.10"
   }
 }

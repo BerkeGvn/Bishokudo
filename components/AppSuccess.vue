@@ -1,11 +1,20 @@
 <template>
   <section class="text-center">
-    <h4 class="text-bs-orange text-5xl font-bold">成功事例</h4>
-    <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
-      美食道のパーソナライズされた食事プランにより、多くのお客様が健康と美を手に入れています。以下は、その中のいくつかの成功事例です。
-    </p>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="300"
+    >
+      <h4 class="text-bs-orange text-5xl font-bold">成功事例</h4>
+      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
+        美食道のパーソナライズされた食事プランにより、多くのお客様が健康と美を手に入れています。以下は、その中のいくつかの成功事例です。
+      </p>
+    </div>
     <ul class="flex flex-col gap-6 items-center">
-      <ReviewCard>
+      <ReviewCard
+        data-aos="fade-right"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <template #image>
           <img
             src="../public/images/person1.webp"
@@ -20,7 +29,12 @@
         </template>
         <template #name>- 佐藤美香</template>
       </ReviewCard>
-      <ReviewCard reverseCard="true">
+      <ReviewCard
+        reverseCard="true"
+        data-aos="fade-left"
+        data-aos-duration="600"
+        data-aos-delay="200"
+      >
         <template #image>
           <img
             src="../public/images/person2.webp"
@@ -36,7 +50,11 @@
         </template>
         <template #name>- 田中健太</template>
       </ReviewCard>
-      <ReviewCard>
+      <ReviewCard
+        data-aos="fade-right"
+        data-aos-duration="600"
+        data-aos-delay="300"
+      >
         <template #image>
           <img
             src="../public/images/person3.webp"

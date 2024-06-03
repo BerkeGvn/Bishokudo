@@ -1,6 +1,10 @@
 <template>
   <section class="my-16 mt-32">
-    <div class="text-center">
+    <div
+      class="text-center"
+      data-aos="fade-up"
+      data-aos-duration="300"
+    >
       <h4 class="text-bs-orange text-5xl font-bold">プランと料金</h4>
       <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
         美食道では、お客様一人ひとりのニーズに合わせた様々なプランをご用意しています。どのプランも、栄養バランスの取れた食事プランと専門家によるサポートが含まれています。
@@ -35,6 +39,9 @@
           'メールサポート',
         ]"
         :yearlyDiscount="subSwitch"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="100"
       >
         <template #subPlan> ベーシックプラン </template>
         <template #price>{{ !subSwitch ? '¥5,000' : '¥54,000' }}</template>
@@ -52,6 +59,9 @@
           'レシピ',
         ]"
         :yearlyDiscount="subSwitch"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="150"
       >
         <template #subPlan> スタンダードプラン </template>
         <template #price>
@@ -72,6 +82,9 @@
           '進捗確認と調整',
         ]"
         :yearlyDiscount="subSwitch"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="200"
       >
         <template #subPlan> プレミアムプラン </template>
         <template #price>

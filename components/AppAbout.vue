@@ -1,5 +1,9 @@
 <template>
-  <section class="my-10">
+  <section
+    class="my-10"
+    data-aos="fade-up"
+    data-aos-duration="600"
+  >
     <h4 class="text-bs-orange text-5xl font-bold text-center">私たちについて</h4>
     <div class="flex items-center justify-center gap-16">
       <div class="pl-12 w-11/12 fle">

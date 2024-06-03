@@ -1,12 +1,21 @@
 <template>
   <section class="px-16 py-12 mb-16">
-    <h4 class="text-bs-orange text-5xl font-bold text-center">お問い合わせ</h4>
-    <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto text-center">
-      美食道へのお問い合わせは、以下の方法で受け付けています。お気軽にご連絡ください。
-    </p>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="300"
+    >
+      <h4 class="text-bs-orange text-5xl font-bold text-center">お問い合わせ</h4>
+      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto text-center">
+        美食道へのお問い合わせは、以下の方法で受け付けています。お気軽にご連絡ください。
+      </p>
+    </div>
+
     <div class="grid grid-cols-3 gap-8 w-4/5 mx-auto">
       <div
         class="bg-bs-white px-4 py-8 rounded-3xl shadow-[10px_10px_0_0_#D5C757] flex flex-col items-center gap-4 text-bs-bbox text-center font-bold"
+        data-aos="fade-up"
+        data-aos-duration="300"
+        data-aos-delay="100"
       >
         <Icon
           class="text-bs-wblue w-16 h-16"
@@ -19,6 +28,9 @@
       </div>
       <div
         class="bg-bs-white px-4 py-8 rounded-3xl shadow-[10px_10px_0_0_#CE4A2D] flex flex-col items-center gap-4 text-bs-bbox text-center font-bold"
+        data-aos="fade-up"
+        data-aos-duration="300"
+        data-aos-delay="150"
       >
         <Icon
           class="text-bs-wblue w-16 h-16"
@@ -30,6 +42,9 @@
       </div>
       <div
         class="bg-bs-white px-4 py-8 rounded-3xl shadow-[10px_10px_0_0_#D5C757] flex flex-col items-center gap-4 text-bs-bbox text-center font-bold"
+        data-aos="fade-up"
+        data-aos-duration="300"
+        data-aos-delay="200"
       >
         <Icon
           class="text-bs-wblue w-16 h-16"
@@ -44,6 +59,9 @@
 
     <div
       class="bg-bs-white mt-12 px-4 py-8 rounded-3xl shadow-[10px_10px_0_0_#084D58] flex flex-col items-center gap-4 text-bs-bbox text-center font-bold w-2/5 mx-auto"
+      data-aos="fade-up"
+      data-aos-duration="300"
+      data-aos-delay="300"
     >
       <Icon
         class="text-bs-wblue w-16 h-16"

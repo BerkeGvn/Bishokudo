@@ -1,15 +1,31 @@
 <template>
   <section class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-wht flex flex-col justify-evenly">
-    <h4 class="text-bs-orange text-5xl font-bold text-center -mt-8">よくある質問</h4>
+    <h4
+      class="text-bs-orange text-5xl font-bold text-center -mt-8"
+      data-aos="fade-up"
+      data-aos-duration="600"
+    >
+      よくある質問
+    </h4>
     <div class="flex h-full items-center">
-      <div class="flex-2">
+      <div
+        class="flex-2"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <img
           src="../public/svg/faq-doodle.svg"
           alt=""
           class="scale-110"
         />
       </div>
-      <ul class="w-3/5 mx-auto flex flex-col gap-6">
+      <ul
+        class="w-3/5 mx-auto flex flex-col gap-6"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <li
           v-for="question in questions"
           :key="question.q"
