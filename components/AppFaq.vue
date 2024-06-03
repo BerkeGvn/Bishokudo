@@ -1,23 +1,41 @@
 <template>
-  <section class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-wht flex flex-col justify-evenly">
-    <h4 class="text-bs-orange text-5xl font-bold text-center -mt-8">よくある質問</h4>
-    <div class="flex h-full items-center">
-      <div class="flex-2">
+  <section
+    class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-wht flex flex-col justify-evenly max-dsk-mid:gap-8 max-sm:px-4"
+  >
+    <h4
+      class="text-bs-orange text-5xl font-bold text-center -mt-8 max-dsk-mid:text-4xl max-dsk-mid:mt-0 max-tb-big:mt-4"
+      data-aos="fade-up"
+      data-aos-duration="600"
+    >
+      よくある質問
+    </h4>
+    <div class="flex h-full items-center max-tb-big:flex-col">
+      <div
+        class="flex-2 max-tb-big:w-3/6"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <img
           src="../public/svg/faq-doodle.svg"
           alt=""
-          class="scale-110"
+          class="scale-110 max-tb-big:scale-100"
         />
       </div>
-      <ul class="w-3/5 mx-auto flex flex-col gap-6">
+      <ul
+        class="w-3/5 mx-auto flex flex-col gap-6 flex-2 max-tb-big:w-full max-tb-big:mb-8 max-sm:w-full"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-delay="100"
+      >
         <li
           v-for="question in questions"
           :key="question.q"
         >
-          <p class="text-bs-orange text-xl font-bold">
+          <p class="text-bs-orange text-xl font-bold max-dsk-mid:text-lg">
             <span>Q:{{ question.q }}</span>
           </p>
-          <p class="text-bs-wblue text-xl">
+          <p class="text-bs-wblue text-xl max-dsk-mid:text-lg">
             <span>A:{{ question.a }}</span>
           </p>
         </li>
