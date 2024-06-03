@@ -20,7 +20,7 @@ useHead({
     },
   ],
   bodyAttrs: {
-    class: 'bg-bs-nurture p-4 font-custom subpixel-antialiased scroll-smooth',
+    class: 'bg-bs-nurture p-4 font-custom subpixel-antialiased scroll-smooth ',
   },
 });
 </script>

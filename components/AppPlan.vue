@@ -7,7 +7,7 @@
     >
       <h4 class="text-bs-orange text-5xl font-bold max-dsk-mid:text-4xl">プランと料金</h4>
       <p
-        class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl max-md:w-full max-md:text-lg"
+        class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl max-md:w-full max-md:text-lg max-sm:font-semibold"
       >
         美食道では、お客様一人ひとりのニーズに合わせた様々なプランをご用意しています。どのプランも、栄養バランスの取れた食事プランと専門家によるサポートが含まれています。
       </p>
