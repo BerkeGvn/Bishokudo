@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="text-xl text-bs-bbox bg-bs-white -m-4 px-8 py-24 gap-8 flex justify-between text-center max-dsk-mid:text-lg max-dsk-mid:gap-4 max-xl:text-base max-tb-big:flex-col max-tb-big:items-center max-tb-big:gap-10 max-tb-big:py-2"
+    class="text-xl text-bs-bbox bg-bs-white -m-4 px-8 py-24 gap-8 flex justify-between text-center max-dsk-mid:text-lg max-dsk-mid:gap-4 max-xl:text-base max-tb-big:flex-col max-tb-big:items-center max-tb-big:gap-10 max-tb-big:py-2 max-sm:gap-4"
   >
     <div class="flex flex-col gap-8 max-tb-big:gap-4">
       <p class="text-7xl text-bs-orange font-bold max-dsk-mid:text-6xl max-xl:text-5xl">美食道</p>
@@ -8,12 +8,12 @@
         >健康的な食生活への第一歩</span
       >
     </div>
-    <ul class="flex flex-col gap-8 max-tb-big:flex-row">
+    <ul class="flex flex-col gap-8 max-tb-big:flex-row max-sm:flex-col max-sm:gap-4">
       <li><a href="">私たちについて</a></li>
       <li><a href="">サービスの流れ</a></li>
       <li><a href="">成功事例</a></li>
     </ul>
-    <ul class="flex flex-col gap-8 max-tb-big:flex-row">
+    <ul class="flex flex-col gap-8 max-tb-big:flex-row max-sm:flex-col max-sm:gap-4">
       <li><a href="">プランと料金</a></li>
       <li><a href="">よくある質問</a></li>
       <li><a href="">お問い合わせ</a></li>

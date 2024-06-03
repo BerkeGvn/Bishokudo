@@ -1,6 +1,6 @@
 <template>
   <section
-    class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl flex flex-col justify-evenly max-tb-big:gap-4"
+    class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl flex flex-col justify-evenly max-tb-big:gap-4 max-sm:px-4"
   >
     <h4
       class="text-bs-white text-5xl font-bold text-center -mt-12 max-dsk-mid:text-4xl max-tb-big:mt-0"

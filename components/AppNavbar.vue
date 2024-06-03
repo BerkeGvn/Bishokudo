@@ -1,7 +1,7 @@
 <template>
   <nav
     ref="nav"
-    class="flex fixed z-10 w-full top-0 left-0 px-2 py-4 justify-between items-center gap-5 bg-bs-nurture transition-all duration-700"
+    class="flex fixed z-10 w-full top-0 left-0 px-2 py-4 justify-between items-center gap-5 bg-bs-nurture transition-all duration-700 max-tb-big:hidden"
   >
     <ul class="flex flex-1 justify-around text-xl text-bs-bbox max-xl:text-lg">
       <li class="">

@@ -5,7 +5,9 @@
       data-aos-duration="300"
     >
       <h4 class="text-bs-orange text-5xl font-bold max-dsk-mid:text-4xl">成功事例</h4>
-      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl">
+      <p
+        class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl max-md:w-full max-md:text-lg"
+      >
         美食道のパーソナライズされた食事プランにより、多くのお客様が健康と美を手に入れています。以下は、その中のいくつかの成功事例です。
       </p>
     </div>
