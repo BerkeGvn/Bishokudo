@@ -14,7 +14,14 @@
         <a href="">成功事例</a>
       </li>
     </ul>
-    <p class="text-4xl text-bs-orange font-bold">美食道</p>
+    <p class="text-4xl text-bs-orange font-bold">
+      <span>
+        <img
+          class="inline w-16 h-16 -my-2"
+          src="../public/svg/logo.svg"
+          alt="" /></span
+      >美食道
+    </p>
     <ul class="flex flex-1 justify-around">
       <li class="text-xl text-bs-bbox">
         <a href="">プランと料金</a>
