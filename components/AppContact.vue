@@ -8,7 +8,7 @@
         お問い合わせ
       </h4>
       <p
-        class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto text-center max-dsk-mid:text-xl max-tb-big:w-full"
+        class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto text-center max-dsk-mid:text-xl max-tb-big:w-full max-sm:font-semibold"
       >
         美食道へのお問い合わせは、以下の方法で受け付けています。お気軽にご連絡ください。
       </p>

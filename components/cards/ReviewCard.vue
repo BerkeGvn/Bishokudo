@@ -8,7 +8,7 @@
     </div>
     <div class="text-center flex flex-col gap-2 w-4/5 max-md:w-full">
       <p
-        class="text-bs-wblue text-xl font-bold text-left max-dsk-mid:text-lg max-tb-big:text-base max-sm:text-center max-sm:text-sm"
+        class="text-bs-wblue text-xl font-bold text-left max-dsk-mid:text-lg max-tb-big:text-base max-sm:text-center max-sm:text-sm max-sm:font-normal"
       >
         <slot></slot>
       </p>
@@ -28,7 +28,7 @@
     </div>
     <div class="flex flex-col gap-2 w-4/5 max-md:w-full">
       <p
-        class="text-bs-wblue text-xl font-bold text-left max-dsk-mid:text-lg max-tb-big:text-base max-sm:text-center max-sm:text-sm"
+        class="text-bs-wblue text-xl font-bold text-left max-dsk-mid:text-lg max-tb-big:text-base max-sm:text-center max-sm:text-sm max-sm:font-normal"
       >
         <slot></slot>
       </p>

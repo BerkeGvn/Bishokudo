@@ -17,7 +17,7 @@ export default {
         'wave-wht': "url('~/public/svg/wave-white.svg')",
       },
       fontFamily: {
-        custom: ['source-han-sans-vf', 'sans-serif'], // Replace 'Your Adobe Font Family' with the actual font name from Adobe Fonts
+        custom: ['Murecho', 'sans-serif'], // Replace 'Your Adobe Font Family' with the actual font name from Adobe Fonts
       },
       screens: {
         // mid screen desktop
