@@ -18,7 +18,13 @@ export default {
       },
       fontFamily: {
         custom: ['source-han-sans-vf', 'sans-serif'], // Replace 'Your Adobe Font Family' with the actual font name from Adobe Fonts
-      }
+      },
+      screens: {
+        // mid screen desktop
+        'dsk-mid': '1350px',
+        //Big tablet etc...
+        'tb-big': '950px'
+      },
     },
   },
   plugins: [],

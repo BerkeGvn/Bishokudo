@@ -4,8 +4,8 @@
       data-aos="fade-up"
       data-aos-duration="300"
     >
-      <h4 class="text-bs-orange text-5xl font-bold">成功事例</h4>
-      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
+      <h4 class="text-bs-orange text-5xl font-bold max-dsk-mid:text-4xl">成功事例</h4>
+      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl">
         美食道のパーソナライズされた食事プランにより、多くのお客様が健康と美を手に入れています。以下は、その中のいくつかの成功事例です。
       </p>
     </div>
@@ -20,6 +20,7 @@
             src="../public/images/person1.webp"
             alt=""
             srcset=""
+            class="max-tb-big:h-24 max-tb-big:w-24"
           />
         </template>
         <template #default>
@@ -40,6 +41,7 @@
             src="../public/images/person2.webp"
             alt=""
             srcset=""
+            class="max-tb-big:h-24 max-tb-big:w-24"
           />
         </template>
         <template #default>
@@ -60,6 +62,7 @@
             src="../public/images/person3.webp"
             alt=""
             srcset=""
+            class="max-tb-big:h-24 max-tb-big:w-24"
           />
         </template>
         <template #default>

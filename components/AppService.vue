@@ -1,13 +1,17 @@
 <template>
-  <section class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl flex flex-col justify-evenly">
+  <section
+    class="min-h-screen -mx-4 my-16 p-16 bg-cover bg-wave-bl flex flex-col justify-evenly max-tb-big:gap-4"
+  >
     <h4
-      class="text-bs-white text-5xl font-bold text-center -mt-12"
+      class="text-bs-white text-5xl font-bold text-center -mt-12 max-dsk-mid:text-4xl max-tb-big:mt-0"
       data-aos="fade-up"
       data-aos-duration="600"
     >
       サービスの流れ
     </h4>
-    <ul class="flex gap-8 justify-center -mt-8">
+    <ul
+      class="flex gap-8 justify-center -mt-8 max-dsk-mid:gap-6 max-tb-big:flex-col max-tb-big:gap-6 max-tb-big:items-center max-tb-big:mt-0 max-tb-big:mb-8"
+    >
       <ServiceCard
         data-aos="fade-up"
         data-aos-duration="600"
@@ -15,7 +19,7 @@
       >
         <template #icon>
           <Icon
-            class="w-16 h-16 text-bs-wblue"
+            class="w-16 h-16 text-bs-wblue max-tb-big:w-10 max-tb-big:h-10"
             name="healthicons:group-discussion-meeting-negative"
           ></Icon>
         </template>
@@ -31,7 +35,7 @@
       >
         <template #icon>
           <Icon
-            class="w-16 h-16 text-bs-wblue"
+            class="w-16 h-16 text-bs-wblue max-tb-big:w-10 max-tb-big:h-10"
             name="streamline:hand-held-tablet-writing-solid"
           ></Icon>
         </template>
@@ -47,7 +51,7 @@
       >
         <template #icon>
           <Icon
-            class="w-16 h-16 text-bs-wblue"
+            class="w-16 h-16 text-bs-wblue max-tb-big:w-10 max-tb-big:h-10"
             name="healthicons:hot-meal-negative"
           ></Icon>
         </template>
@@ -63,7 +67,7 @@
       >
         <template #icon>
           <Icon
-            class="w-16 h-16 text-bs-wblue"
+            class="w-16 h-16 text-bs-wblue max-tb-big:w-10 max-tb-big:h-10"
             name="fluent:calendar-checkmark-28-filled"
           ></Icon>
         </template>

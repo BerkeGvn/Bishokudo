@@ -1,16 +1,16 @@
 <template>
-  <section class="my-16 mt-32">
+  <section class="my-16 mt-32 max-dsk-mid:mt-24">
     <div
       class="text-center"
       data-aos="fade-up"
       data-aos-duration="300"
     >
-      <h4 class="text-bs-orange text-5xl font-bold">プランと料金</h4>
-      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto">
+      <h4 class="text-bs-orange text-5xl font-bold max-dsk-mid:text-4xl">プランと料金</h4>
+      <p class="text-2xl text-bs-wblue font-bold my-8 w-4/5 m-auto max-dsk-mid:text-xl">
         美食道では、お客様一人ひとりのニーズに合わせた様々なプランをご用意しています。どのプランも、栄養バランスの取れた食事プランと専門家によるサポートが含まれています。
       </p>
       <label class="inline-flex items-center cursor-pointer mb-2">
-        <span class="text-lg mr-2 font-medium text-gray-900">月額</span>
+        <span class="text-lg mr-2 font-medium text-gray-900 max-dsk-mid:text-base">月額</span>
         <input
           type="checkbox"
           id="true"
@@ -22,16 +22,16 @@
           class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-bs-orange"
         ></div>
 
-        <span class="text-lg ml-2 font-medium text-gray-900">年間</span>
+        <span class="text-lg ml-2 font-medium text-gray-900 max-dsk-mid:text-base">年間</span>
       </label>
       <img
         src="../public/svg/arrow.svg"
         alt=""
         class="m-auto"
       />
-      <p class="text-lg text-bs-orange">特別割引価格でご提供中！</p>
+      <p class="text-lg text-bs-orange max-dsk-mid:text-base">特別割引価格でご提供中！</p>
     </div>
-    <ul class="flex justify-around mt-4">
+    <ul class="flex justify-around mt-4 max-dsk-mid:gap-4 max-dsk-mid:flex-wrap">
       <SubCard
         :features="[
           'パーソナライズされた週次食事プラン',
