@@ -11,7 +11,7 @@
         美食道のパーソナライズされた食事プランにより、多くのお客様が健康と美を手に入れています。以下は、その中のいくつかの成功事例です。
       </p>
     </div>
-    <ul class="flex flex-col gap-6 items-center">
+    <ul class="flex flex-col gap-6 items-center max-md:pb-8 max-md:overflow-x-hidden">
       <ReviewCard
         data-aos="fade-right"
         data-aos-duration="600"

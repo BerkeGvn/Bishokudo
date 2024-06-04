@@ -1,6 +1,6 @@
 <template>
   <section
-    class="my-10"
+    class="my-10 max-md:my-24"
     data-aos="fade-up"
     data-aos-duration="600"
   >

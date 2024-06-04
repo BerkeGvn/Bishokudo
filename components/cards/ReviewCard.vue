@@ -1,7 +1,7 @@
 <template>
   <li
     v-if="reverseCard"
-    class="bg-bs-citron px-8 py-8 flex flex-row-reverse gap-4 justify-evenly items-center s w-4/5 rounded-3xl shadow-[10px_10px_0_0_#084D58] max-dsk-mid:px-4 max-dsk-mid:py-4 max-md:w-full max-md:flex-col"
+    class="bg-bs-citron px-8 py-8 flex flex-row-reverse gap-4 justify-evenly items-center s w-4/5 rounded-3xl shadow-[10px_10px_0_0_#084D58] max-dsk-mid:px-4 max-dsk-mid:py-4 max-md:w-11/12 max-md:flex-col"
   >
     <div>
       <slot name="image"></slot>
@@ -21,7 +21,7 @@
   </li>
   <li
     v-else
-    class="bg-bs-citron px-8 py-8 flex gap-4 justify-evenly items-center s w-4/5 rounded-3xl shadow-[10px_10px_0_0_#084D58] max-dsk-mid:px-4 max-dsk-mid:py-4 max-md:w-full max-md:flex-col"
+    class="bg-bs-citron px-8 py-8 flex gap-4 justify-evenly items-center s w-4/5 rounded-3xl shadow-[10px_10px_0_0_#084D58] max-dsk-mid:px-4 max-dsk-mid:py-4 max-md:w-11/12 max-md:flex-col"
   >
     <div>
       <slot name="image"></slot>
