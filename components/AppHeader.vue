@@ -3,7 +3,7 @@
     class="h-screen flex items-center mt-12 max-tb-big:flex-col-reverse max-tb-big:mt-8 max-tb-big:justify-end max-tb-big:relative max-tb-big:h-auto"
   >
     <div
-      class="flex flex-col gap-14 justify-center pl-12 w-3/5 -mt-20 max-tb-big:pl-0 max-tb-big:w-full items-center max-tb-big:gap-8 max-tb-big:mt-6"
+      class="flex flex-col gap-14 justify-center pl-12 w-3/5 -mt-20 max-tb-big:pl-0 max-tb-big:w-full max-tb-big:items-center max-tb-big:gap-8 max-tb-big:mt-6"
     >
       <h1
         class="text-9xl font-bold text-bs-orange relative max-dsk-mid:text-8xl max-tb-big:text-7xl max-tb-big:absolute top-0"
