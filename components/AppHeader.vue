@@ -27,7 +27,7 @@
       </h3>
       <div>
         <button
-          class="bg-bs-citron px-14 py-3 text-3xl text-bs-wblue border-bs-orange border-solid border-4 rounded-3xl font-semibold max-dsk-mid:px-12 max-dsk-mid:text-2xl max-tb-big:text-lg"
+          class="bg-bs-citron px-14 py-3 text-3xl text-bs-wblue border-bs-orange border-solid border-4 rounded-3xl font-semibold max-dsk-mid:px-12 max-dsk-mid:text-2xl max-tb-big:text-lg transition-all duration-200 hover:scale-105 hover:-translate-y-2 hover:shadow-lg active:scale-1 active:translate-y-0 active:shadow-none"
         >
           一緒に頑張りましょう!
         </button>

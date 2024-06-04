@@ -15,7 +15,7 @@
       <span class="text-bs-orange font-semibold">お買い得!</span>
       <slot name="discount"></slot>
     </p>
-    <button class="bg-bs-orange text-sm py-3 w-1/2 rounded-3xl text-bs-white mx-auto my-4 font-bold max-tb-big:my-2">
+    <button class="bg-bs-orange text-sm py-3 w-1/2 rounded-3xl text-bs-white mx-auto my-4 font-bold max-tb-big:my-2 hover:scale-105 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg active:scale-1 active:translate-y-0 active:shadow-none">
       今すぐ始める!
     </button>
     <p class="text-base">

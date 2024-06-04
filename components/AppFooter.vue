@@ -11,39 +11,75 @@
       >
     </div>
     <ul class="flex flex-col gap-8 max-tb-big:flex-row max-sm:flex-col max-sm:gap-4">
-      <li><a href="#about">私たちについて</a></li>
-      <li><a href="#service">サービスの流れ</a></li>
-      <li><a href="#success">成功事例</a></li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#about"
+          >私たちについて</a
+        >
+      </li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#service"
+          >サービスの流れ</a
+        >
+      </li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#success"
+          >成功事例</a
+        >
+      </li>
     </ul>
     <ul class="flex flex-col gap-8 max-tb-big:flex-row max-sm:flex-col max-sm:gap-4">
-      <li><a href="#plan">プランと料金</a></li>
-      <li><a href="#faq">よくある質問</a></li>
-      <li><a href="#contact">お問い合わせ</a></li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#plan"
+          >プランと料金</a
+        >
+      </li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#faq"
+          >よくある質問</a
+        >
+      </li>
+      <li>
+        <a
+          class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-wblue before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+          href="#contact"
+          >お問い合わせ</a
+        >
+      </li>
     </ul>
     <ul class="flex flex-col gap-8 max-tb-big:gap-2">
-      <li><a href="">メール: support@bishokudo.jp</a></li>
-      <li><a href="">電話: 03-1234-5678</a></li>
-      <li><a href="">住所: 東京都1-2-3</a></li>
+      <li>メール: support@bishokudo.jp</li>
+      <li>電話: 03-1234-5678</li>
+      <li>住所: 東京都1-2-3</li>
     </ul>
 
-    <div class="flex flex-col gap-4 w-1/4 justify-center max-tb-big:w-full">
+    <div class="flex flex-col gap-4 w-1/4 justify-start max-tb-big:w-full">
       <p>最新情報やお得な情報をいち早くお届けします。ニュースレターに登録してください。</p>
-      <p class="text-bs-orange"><a href="">ニュースレターに登録</a></p>
+      <p class="text-bs-orange"><a href="#">ニュースレターに登録</a></p>
     </div>
     <div class="flex flex-col max-dsk-mid:justify-between max-tb-big:flex-row gap-12">
-      <a href="">
+      <a href="#">
         <Icon
           class="text-bs-wblue w-12 h-12 max-dsk-mid:w-8 max-dsk-mid:h-8"
           name="mdi:facebook-box"
         ></Icon>
       </a>
-      <a href="">
+      <a href="#">
         <Icon
           class="text-bs-wblue w-12 h-12 max-dsk-mid:w-8 max-dsk-mid:h-8"
           name="mdi:instagram"
         ></Icon
       ></a>
-      <a href="">
+      <a href="#">
         <Icon
           class="text-bs-wblue w-12 h-12 max-dsk-mid:w-8 max-dsk-mid:h-8"
           name="hugeicons:new-twitter"

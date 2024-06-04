@@ -4,13 +4,19 @@
     class="flex fixed z-10 w-full top-0 left-0 px-2 py-4 justify-between items-center gap-5 bg-bs-nurture transition-all duration-700 max-tb-big:hidden"
   >
     <ul class="flex flex-1 justify-around text-xl text-bs-bbox max-xl:text-lg">
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#about">私たちについて</a>
       </li>
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#service">サービスの流れ</a>
       </li>
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#success">成功事例</a>
       </li>
     </ul>
@@ -23,13 +29,19 @@
       ><a href="#header">美食道</a>
     </p>
     <ul class="flex flex-1 justify-around text-xl text-bs-bbox max-xl:text-lg">
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#plan">プランと料金</a>
       </li>
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#faq">よくある質問</a>
       </li>
-      <li>
+      <li
+        class="relative before:content-[''] before:absolute before:-bottom-1 before:bg-bs-orange before:w-0 before:h-1 before:rounded-lg before:transition-all hover:before:w-full"
+      >
         <a href="#contact">お問い合わせ</a>
       </li>
     </ul>
